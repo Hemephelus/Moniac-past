@@ -1,8 +1,3 @@
-# React + Vite
+# Moniac Simulator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This is a project where I, Nwachukwu Ujubuonu and Justina Okere try to simulate an economy. The MONIAC, or Monetary National Income Analogue Computer, was invented in 1949 by New Zealand engineer and economist, Alban William Housego 'Bill' Phillips.
