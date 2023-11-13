@@ -20,6 +20,7 @@ export default class Vehicle {
     this.acceleration = p5.createVector(0, 0);
     this.velocity = p5.createVector(this.maxspeed, 0);
     this.pathId = pathId
+    this.seen = [false, 0]
   }
 
   // A function to deal with path following and separation
