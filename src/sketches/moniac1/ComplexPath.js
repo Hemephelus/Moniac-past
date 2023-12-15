@@ -20,7 +20,7 @@ export default class Path {
   
     // Add a point to the path
     addPoint(p5,x, y) {
-      let point = new anchor(p5,x,y)
+      let point = new anchor(p5,x,y,this.radius*2)
       this.points.push(point);
     }
   
@@ -29,7 +29,7 @@ export default class Path {
       p5.strokeJoin(p5.ROUND);
   
       // Draw thick line for radius
-      p5.stroke(28,74,144);
+      p5.stroke(245,243,238);
       p5.strokeWeight(this.radius * 2);
       p5.noFill();
       p5.beginShape();

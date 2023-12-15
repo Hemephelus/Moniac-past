@@ -199,7 +199,8 @@ export default class Vehicle {
     // Simpler boid is just a circle
     // p5.drawingContext.shadowBlur = 32;
     // p5.drawingContext.shadowColor = p5.color(245,243,238);
-    p5.fill(245,243,238);
+    // p5.fill(245,243,238);
+    p5.fill(28,74,144);
     p5.noStroke();
     p5.push();
     p5.translate(this.position.x, this.position.y);

@@ -7,11 +7,11 @@ import Vehicle from "./Vehicle";
 function MoniacSketch() {
   // Economics
   let TAX_RATE = 0.5;
-  let TRANSACTION_BALANCE = 10//1024;
-  let GOVERNMENT_EXPENDITURE_RATE = 1.0;
+  let TRANSACTION_BALANCE = 2000
+  let GOVERNMENT_EXPENDITURE_RATE = 0.5;
   let AVERAGE_PROPENSITY_TO_CONSUME = 0.5;
-  let INVESTMENT_RATE = 1.0;
-  let AVERAGE_PROPENSITY_IMPORT = 0.0;
+  let INVESTMENT_RATE = 0.1;
+  let AVERAGE_PROPENSITY_IMPORT = 0.1;
   //   let AUTONOMOUS_GOVERNMENT_EXPENDITURE = 0;
   //   let GDP_Y = TRANSACTION_BALANCE;
   //   let AUTONOMOUS_EXPORT = 0;
@@ -41,7 +41,7 @@ function MoniacSketch() {
 
       // Income GDP_Y Pipe
       endAnchors.push({
-        anchor: paths[0].points[4],
+        anchor: paths[0].points[4], 
         nextIds: [1, 2],
         probabilities: [TAX_RATE, 1 - TAX_RATE],
       });
@@ -159,7 +159,7 @@ function MoniacSketch() {
         // }
 
         if (k % 100 === 0) {
-          console.log(vehicles.length);
+          // console.log(vehicles.length);
         }
 
         k++
